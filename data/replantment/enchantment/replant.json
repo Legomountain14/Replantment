@@ -1,439 +1,78 @@
 {
-    "description": "Replant",
-    "supported_items": "#minecraft:hoes",
-    "primary_items": "#minecraft:hoes",
-    "weight": 3,
-    "max_level": 1,
-    "min_cost": {
-        "base": 1,
-        "per_level_above_first": 1
-    },
-    "max_cost": {
-        "base": 51,
-        "per_level_above_first": 10
-    },
-    "anvil_cost": 0,
-    "slots": [
-        "mainhand"
-    ],
-    "effects": {
-        "minecraft:hit_block": [
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:carrot/carrot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:carrots",
-                    "properties": {
-                        "age": "0"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:carrot/carrot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:carrots",
-                    "properties": {
-                        "age": "1"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:carrot/carrot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:carrots",
-                    "properties": {
-                        "age": "2"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:carrot/carrot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:carrots",
-                    "properties": {
-                        "age": "3"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:carrot/carrot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:carrots",
-                    "properties": {
-                        "age": "4"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:carrot/carrot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:carrots",
-                    "properties": {
-                        "age": "5"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:carrot/carrot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:carrots",
-                    "properties": {
-                        "age": "6"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:carrot/carrot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:carrots",
-                    "properties": {
-                        "age": "7"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:wheat/wheat"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:wheat",
-                    "properties": {
-                        "age": "0"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:wheat/wheat"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:wheat",
-                    "properties": {
-                        "age": "1"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:wheat/wheat"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:wheat",
-                    "properties": {
-                        "age": "2"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:wheat/wheat"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:wheat",
-                    "properties": {
-                        "age": "3"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:wheat/wheat"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:wheat",
-                    "properties": {
-                        "age": "4"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:wheat/wheat"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:wheat",
-                    "properties": {
-                        "age": "5"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:wheat/wheat"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:wheat",
-                    "properties": {
-                        "age": "6"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:wheat/wheat"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:wheat",
-                    "properties": {
-                        "age": "7"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:beetroot/beetroot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:beetroots",
-                    "properties": {
-                        "age": "0"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:beetroot/beetroot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:beetroots",
-                    "properties": {
-                        "age": "1"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:beetroot/beetroot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:beetroots",
-                    "properties": {
-                        "age": "2"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:beetroot/beetroot"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:beetroots",
-                    "properties": {
-                        "age": "3"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:potato/potato"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:potatoes",
-                    "properties": {
-                        "age": "0"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:potato/potato"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:potatoes",
-                    "properties": {
-                        "age": "1"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:potato/potato"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:potatoes",
-                    "properties": {
-                        "age": "2"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:potato/potato"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:potatoes",
-                    "properties": {
-                        "age": "3"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:potato/potato"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:potatoes",
-                    "properties": {
-                        "age": "4"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:potato/potato"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:potatoes",
-                    "properties": {
-                        "age": "5"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:potato/potato"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:potatoes",
-                    "properties": {
-                        "age": "6"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:potato/potato"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:potatoes",
-                    "properties": {
-                        "age": "7"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:nether_wart/nether_wart"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:nether_wart",
-                    "properties": {
-                        "age": "0"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:nether_wart/nether_wart"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:nether_wart",
-                    "properties": {
-                        "age": "1"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:nether_wart/nether_wart"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:nether_wart",
-                    "properties": {
-                        "age": "2"
-                    }
-                }
-            },
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "replantment:nether_wart/nether_wart"
-                },
-                "requirements": {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:nether_wart",
-                    "properties": {
-                        "age": "3"
-                    }
-                }
-            }
-        ]
-    }
+  "description": "Replant",
+  "supported_items": "#minecraft:hoes",
+  "primary_items": "#minecraft:hoes",
+  "weight": 3,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 51,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:carrot/carrot"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:carrots",
+          "properties": {}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:wheat/wheat"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:wheat",
+          "properties": {}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:beetroot/beetroot"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:beetroots",
+          "properties": {}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:potato/potato"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:potatoes",
+          "properties": {}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:nether_wart/nether_wart"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:nether_wart",
+          "properties": {}
+        }
+      }
+    ]
+  }
 }
