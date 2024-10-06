@@ -72,6 +72,28 @@
           "block": "minecraft:nether_wart",
           "properties": {}
         }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:cabbage/cabbage"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "farmersdelight:cabbages",
+          "properties": {}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:onion/onion"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "farmersdelight:onions",
+          "properties": {}
+        }
       }
     ]
   }
