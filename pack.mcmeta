@@ -1,6 +1,12 @@
 {
-    "pack": {
-        "pack_format": 45,
-        "description": "Adds a simple enchantment to hoes that replants crops."
-    }
+  "pack": {
+    "description": "Adds a simple enchantment to hoes that replants crops.",
+    "pack_format": 45,
+    "supported_formats": [
+      45,
+      88
+    ],
+    "min_format": 45,
+    "max_format": 88
+  }
 }
