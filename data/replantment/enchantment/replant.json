@@ -1,5 +1,7 @@
 {
-  "description": "Replant",
+  "description": {
+    "translate": "enchantment.replantment.replant"
+  },
   "supported_items": "#minecraft:hoes",
   "primary_items": "#minecraft:hoes",
   "weight": 3,
