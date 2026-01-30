@@ -4,16 +4,18 @@ Support for replanting:
 * Potatoes
 * Carrots
 * Nether Wart
-* Sugar Cane (if you desire)
-* Bamboo (again if you desire)
-* Torchflower (come on, who's *actually* farming those?)
+* Sugar Cane
+* Bamboo
+* Torchflower
 * Pither Plant
-* And cocoa
+* Cocoa Beans
 If farmer's delight mod present:
 - Onions
 - Cabbages
-- And mushroom colonies
+- Mushroom colonies
 
 If you want installation instructions, check the Minecraft Wiki tutorial for it [here](https://minecraft.wiki/w/Tutorials/Installing_a_data_pack).
 
 [Download from Modrinth](https://modrinth.com/datapack/replantment)
+
+Russian translation (requires installation on client) thanks to [liroxdeyamon](https://github.com/liroxdeyamon).

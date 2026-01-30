@@ -1,6 +1,7 @@
 {
   "description": {
-    "translate": "enchantment.replantment.replant"
+    "translate": "enchantment.replantment.replant",
+    "fallback": "Replant"
   },
   "supported_items": "#minecraft:hoes",
   "primary_items": "#minecraft:hoes",
