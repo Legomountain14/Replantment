@@ -1,0 +1,2 @@
+execute if entity @s[nbt={Inventory:[{id:"minecraft:pitcher_pod"}]}] run summon marker ~ ~ ~ {Tags:["pitcher_crop"]}
+execute if entity @s[nbt={Inventory:[{id:"minecraft:pitcher_pod"}]}] run clear @s pitcher_pod 1

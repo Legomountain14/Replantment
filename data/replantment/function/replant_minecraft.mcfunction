@@ -1,0 +1,12 @@
+execute if block ~ ~ ~ minecraft:carrots run function replantment:carrot/carrot
+execute if block ~ ~ ~ minecraft:wheat run function replantment:wheat/wheat
+execute if block ~ ~ ~ minecraft:beetroots run function replantment:beetroot/beetroot
+execute if block ~ ~ ~ minecraft:potatoes run function replantment:potato/potato
+execute if block ~ ~ ~ minecraft:nether_wart run function replantment:nether_wart/nether_wart
+execute if block ~ ~ ~ minecraft:sugar_cane run function replantment:sugar_cane/sugar_cane
+execute if block ~ ~ ~ minecraft:torchflower run function replantment:torchflower/torchflower
+execute if block ~ ~ ~ minecraft:bamboo run function replantment:bamboo/bamboo
+execute if block ~ ~ ~ minecraft:pitcher_crop run function replantment:pitcher_crop/pitcher_crop
+execute if block ~ ~ ~ minecraft:cocoa run function replantment:cocoa/cocoa
+execute if block ~ ~ ~ minecraft:red_mushroom run function replantment:red_mushroom/red_mushroom
+execute if block ~ ~ ~ minecraft:brown_mushroom run function replantment:brown_mushroom/brown_mushroom

@@ -1,0 +1,2 @@
+execute if entity @s[nbt={Inventory:[{id:"minecraft:red_mushroom"}]}] run summon marker ~ ~ ~ {Tags:["red_mushroom"]}
+execute if entity @s[nbt={Inventory:[{id:"minecraft:red_mushroom"}]}] run clear @s red_mushroom 1

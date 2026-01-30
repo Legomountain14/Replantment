@@ -1,5 +1,7 @@
 {
-  "description": "Replant",
+  "description": {
+    "translate": "enchantment.replantment.replant"
+  },
   "supported_items": "#minecraft:hoes",
   "primary_items": "#minecraft:hoes",
   "weight": 3,
@@ -21,56 +23,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "replantment:carrot/carrot"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:carrots",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:wheat/wheat"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:wheat",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:beetroot/beetroot"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:beetroots",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:potato/potato"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:potatoes",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:nether_wart/nether_wart"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:nether_wart",
-          "properties": {}
+          "function": "replantment:replant_any"
         }
       }
     ]
